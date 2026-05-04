@@ -28,9 +28,9 @@ try:
         if intento2 > numero_final:
             print("El número es menor")
             print("Te daré una pista:")
-            if (intento2 - numero_final) < (intento1 - numero_final):
+            if (intento2 - numero_final) > (intento1 - numero_final):
                 print(f"El número está más cerca de {intento1} que de {intento2}")
-            elif (intento2 - numero_final) > (intento1 - numero_final):
+            elif (intento2 - numero_final) < (intento1 - numero_final):
                 print(f"El número está más cerca de {intento2} que de {intento1}")
         elif intento2 < numero_final:
             print("El número es mayor")
