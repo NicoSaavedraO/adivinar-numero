@@ -1,7 +1,6 @@
 import os
 os.system("cls")
 from random import randint
-flag = True
 try:
     while True:
         
